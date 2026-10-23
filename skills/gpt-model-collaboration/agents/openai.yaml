@@ -1,0 +1,6 @@
+interface:
+  display_name: "GPT 多模型协作"
+  short_description: "根据任务复杂度安排 Sol、Luna 与 Astra 协作，并统一验证和交付结果"
+  default_prompt: "使用 $gpt-model-collaboration 完成任务，按复杂度及我的授权选择直接执行或多模型协作。"
+policy:
+  allow_implicit_invocation: true
